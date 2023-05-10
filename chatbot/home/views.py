@@ -2,7 +2,7 @@ from django.shortcuts import render,HttpResponse
 from django.http import JsonResponse
 import openai
 
-openai.api_key = "Enter your Api Key"
+openai.api_key = "api key"
 
 
 def chat(request):
